@@ -1,0 +1,8 @@
+C:\Users\User\Downloads\ApiMovie\Api.Movie\Api.Movie\obj\Debug\net8.0\Api.Movie.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\ApiMovie\Api.Movie\Api.Movie\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\User\Downloads\ApiMovie\Api.Movie\Api.Movie\obj\Debug\net8.0\Api.Movie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Downloads\ApiMovie\Api.Movie\Api.Movie\obj\Debug\net8.0\Api.Movie.AssemblyInfoInputs.cache
+C:\Users\User\Downloads\ApiMovie\Api.Movie\Api.Movie\obj\Debug\net8.0\Api.Movie.AssemblyInfo.cs
+C:\Users\User\Downloads\ApiMovie\Api.Movie\Api.Movie\obj\Debug\net8.0\Api.Movie.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\ApiMovie\Api.Movie\Api.Movie\obj\Debug\net8.0\Api.Movie.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Downloads\ApiMovie\Api.Movie\Api.Movie\obj\Debug\net8.0\Api.Movie.MvcApplicationPartsAssemblyInfo.cache
