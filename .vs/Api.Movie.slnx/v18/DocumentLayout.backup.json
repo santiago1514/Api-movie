@@ -3,20 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|c:\\users\\user\\downloads\\apimovie\\api.movie\\api.movie\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|solutionrelative:api.movie\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|c:\\users\\user\\downloads\\apimovie\\api.movie\\api.movie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|solutionrelative:api.movie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|c:\\users\\user\\downloads\\apimovie\\api.movie\\api.movie\\dal\\models\\dtos\\categorycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|solutionrelative:api.movie\\dal\\models\\dtos\\categorycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|c:\\users\\user\\downloads\\apimovie\\api.movie\\api.movie\\repository\\irepository\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|solutionrelative:api.movie\\repository\\irepository\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|c:\\users\\user\\downloads\\apimovie\\api.movie\\api.movie\\repository\\irepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|solutionrelative:api.movie\\repository\\irepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|c:\\users\\user\\downloads\\apimovie\\api.movie\\api.movie\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|solutionrelative:api.movie\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|c:\\users\\user\\downloads\\apimovie\\api.movie\\api.movie\\repository\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|solutionrelative:api.movie\\repository\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|c:\\users\\user\\downloads\\apimovie\\api.movie\\api.movie\\services\\iservices\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|solutionrelative:api.movie\\services\\iservices\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|c:\\users\\user\\downloads\\apimovie\\api.movie\\api.movie\\services\\iservices\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|solutionrelative:api.movie\\services\\iservices\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|c:\\users\\user\\downloads\\apimovie\\api.movie\\api.movie\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|solutionrelative:api.movie\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|c:\\users\\user\\downloads\\apimovie\\api.movie\\api.movie\\api.movie.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|solutionrelative:api.movie\\api.movie.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|c:\\users\\user\\downloads\\apimovie\\api.movie\\api.movie\\moviesmapper\\mappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|solutionrelative:api.movie\\moviesmapper\\mappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|c:\\users\\user\\downloads\\apimovie\\api.movie\\api.movie\\dal\\models\\dtos\\categorycreateupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|solutionrelative:api.movie\\dal\\models\\dtos\\categorycreateupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|c:\\users\\user\\downloads\\apimovie\\api.movie\\api.movie\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|solutionrelative:api.movie\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|c:\\users\\user\\downloads\\apimovie\\api.movie\\api.movie\\dal\\models\\dtos\\categorycreateupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|solutionrelative:api.movie\\dal\\models\\dtos\\categorycreateupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|c:\\users\\user\\downloads\\apimovie\\api.movie\\api.movie\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9847EDC1-3230-FD1C-C7FC-7060773F05CC}|Api.Movie\\Api.Movie.csproj|solutionrelative:api.movie\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,24 +62,167 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MoviesController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\Controllers\\MoviesController.cs",
-              "RelativeDocumentMoniker": "Api.Movie\\Controllers\\MoviesController.cs",
-              "ToolTip": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\Controllers\\MoviesController.cs",
-              "RelativeToolTip": "Api.Movie\\Controllers\\MoviesController.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAcwFUAAABiAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\Program.cs",
+              "RelativeDocumentMoniker": "Api.Movie\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\Program.cs",
+              "RelativeToolTip": "Api.Movie\\Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwB4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T19:34:47.369Z",
+              "WhenOpened": "2025-12-02T03:20:39.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IMovieService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\Services\\IServices\\IMovieService.cs",
+              "RelativeDocumentMoniker": "Api.Movie\\Services\\IServices\\IMovieService.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\Services\\IServices\\IMovieService.cs",
+              "RelativeToolTip": "Api.Movie\\Services\\IServices\\IMovieService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T03:19:07.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\Services\\IServices\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "Api.Movie\\Services\\IServices\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\Services\\IServices\\ICategoryService.cs",
+              "RelativeToolTip": "Api.Movie\\Services\\IServices\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T03:19:04.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MovieRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\Repository\\MovieRepository.cs",
+              "RelativeDocumentMoniker": "Api.Movie\\Repository\\MovieRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\Repository\\MovieRepository.cs",
+              "RelativeToolTip": "Api.Movie\\Repository\\MovieRepository.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAIwEoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T03:17:39.076Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\Repository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "Api.Movie\\Repository\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\Repository\\CategoryRepository.cs",
+              "RelativeToolTip": "Api.Movie\\Repository\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T03:17:29.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\Repository\\IRepository\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "Api.Movie\\Repository\\IRepository\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\Repository\\IRepository\\ICategoryRepository.cs",
+              "RelativeToolTip": "Api.Movie\\Repository\\IRepository\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T03:16:57.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IMovieRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\Repository\\IRepository\\IMovieRepository.cs",
+              "RelativeDocumentMoniker": "Api.Movie\\Repository\\IRepository\\IMovieRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\Repository\\IRepository\\IMovieRepository.cs",
+              "RelativeToolTip": "Api.Movie\\Repository\\IRepository\\IMovieRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T03:17:01.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Api.Movie\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\Services\\CategoryService.cs",
+              "RelativeToolTip": "Api.Movie\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T03:19:11.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Api.Movie",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\Api.Movie.csproj",
+              "RelativeDocumentMoniker": "Api.Movie\\Api.Movie.csproj",
+              "ToolTip": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\Api.Movie.csproj",
+              "RelativeToolTip": "Api.Movie\\Api.Movie.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-02T03:31:50.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Mappers.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\MoviesMapper\\Mappers.cs",
+              "RelativeDocumentMoniker": "Api.Movie\\MoviesMapper\\Mappers.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\MoviesMapper\\Mappers.cs",
+              "RelativeToolTip": "Api.Movie\\MoviesMapper\\Mappers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T03:16:50.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Api.Movie\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Api.Movie\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T03:23:27.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "Api.Movie\\Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "Api.Movie\\Controllers\\MoviesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T03:23:30.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "CategoryCreateUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\DAL\\Models\\Dtos\\CategoryCreateUpdateDto.cs",
               "RelativeDocumentMoniker": "Api.Movie\\DAL\\Models\\Dtos\\CategoryCreateUpdateDto.cs",
@@ -51,33 +230,7 @@
               "RelativeToolTip": "Api.Movie\\DAL\\Models\\Dtos\\CategoryCreateUpdateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T19:31:38.289Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoryCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\DAL\\Models\\Dtos\\CategoryCreateDto.cs",
-              "RelativeDocumentMoniker": "Api.Movie\\DAL\\Models\\Dtos\\CategoryCreateDto.cs",
-              "ToolTip": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\DAL\\Models\\Dtos\\CategoryCreateDto.cs",
-              "RelativeToolTip": "Api.Movie\\DAL\\Models\\Dtos\\CategoryCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T19:31:29.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "Api.Movie\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\User\\Downloads\\ApiMovie\\Api.Movie\\Api.Movie\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "Api.Movie\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAcwDkAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T19:26:29.643Z",
+              "WhenOpened": "2025-12-02T03:23:31.814Z",
               "EditorCaption": ""
             }
           ]

@@ -1,8 +1,9 @@
 ﻿using Api.Movie.DAL.Models.Dtos;
 using Api.Movie.Services.IServices;
+
 using Microsoft.AspNetCore.Mvc;
 
-namespace API.Movies.Controllers
+namespace Api.Movies.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -49,8 +50,7 @@ namespace API.Movies.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status409Conflict)]
-        public async Task<ActionResult<CategoryDto>> CreateCategoryAsync([FromBody] MovieCreateUpdateDto dto)
-
+        public async Task<ActionResult<CategoryDto>> CreateCategoryAsync([FromBody] CategoryCreateUpdateDto categoryCreateDto)
         {
             if (!ModelState.IsValid)
             {
@@ -59,13 +59,13 @@ namespace API.Movies.Controllers
 
             try
             {
-                var createdCategory = await _categoryService.CreateCategoryAsync(dto);
+                var createdCategory = await _categoryService.CreateCategoryAsync(categoryCreateDto);
 
-                //Vamos a retornar un 201 Created con la ruta para obtener la categoría creada
+                
                 return CreatedAtRoute(
-                    "GetCategoryAsync",                 //1er parámetro: nombre de la ruta
-                    new { id = createdCategory.Id },    //2o parámetro: los valores de los parámetros de la ruta
-                    createdCategory                     //3er parámetro: el objeto creado
+                    "GetCategoryAsync",                 
+                    new { id = createdCategory.Id },    
+                    createdCategory                     
                     );
             }
             catch (InvalidOperationException ex) when (ex.Message.Contains("Ya existe"))
@@ -84,7 +84,7 @@ namespace API.Movies.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status409Conflict)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<ActionResult<CategoryDto>> UpdateCategoryAsync([FromBody] MovieCreateUpdateDto dto, int id)
+        public async Task<ActionResult<CategoryDto>> UpdateCategoryAsync([FromBody] CategoryCreateUpdateDto dto, int id)
         {
             if (!ModelState.IsValid)
             {
@@ -120,7 +120,7 @@ namespace API.Movies.Controllers
             try
             {
                 var deletedCategory = await _categoryService.DeleteCategoryAsync(id);
-                return Ok(deletedCategory); //retorno un OK para mostrar el "True" de la eliminación
+                return Ok(deletedCategory); 
             }
             catch (InvalidOperationException ex) when (ex.Message.Contains("No se encontró"))
             {

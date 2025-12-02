@@ -1,13 +1,15 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Api.Movie.DAL.Models;
+using System.ComponentModel.DataAnnotations;
 
-namespace Api.Movie.DAL.Models
+namespace Api.Movies.DAL.Models
 {
-    public class Movie
+    public class Movie : AuditBase
     {
         [Required] 
         [Display(Name = "Nombre de la Pelicula")] 
         public string Name { get; set; }
         public string Duration { get; set; }
         public string Clasification { get; set; }
+
     }
 }

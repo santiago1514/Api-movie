@@ -1,6 +1,7 @@
 ﻿using Api.Movie.DAL.Models.Dtos;
-using Api.Movie.MoviesMapper;
-using Api.Movie.Repository.IRepository;
+using Api.Movie.Repository;
+using Api.Movie.Services.IServices;
+using AutoMapper;
 
 namespace Api.Movie.Services
 {
@@ -36,7 +37,7 @@ namespace Api.Movie.Services
             }
 
             //Mapear el DTO a la entidad
-            var movie = _mapper.Map<Movie>(movieCreateDto);
+            var movie = _mapper.Map<Api.Movies.DAL.Models.Movie>(movieCreateDto);
 
             //Crear la pelicula en el repositorio
             var movieCreated = await _movieRepository.CreateMovieAsync(movie);

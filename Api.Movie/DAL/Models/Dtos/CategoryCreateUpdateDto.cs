@@ -1,9 +1,11 @@
-﻿namespace Api.Movie.DAL.Models.Dtos
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Api.Movie.DAL.Models.Dtos
 {
-    public class MovieCreateUpdateDto
+    public class CategoryCreateUpdateDto
     {
-        public string Name { get; set; } = null!;
-        public string Duration { get; set; } = null!;
-        public string Clasification { get; set; } = null!;
+        [Required(ErrorMessage = "El nombre de la categoría es obligatorio.")]
+        [MaxLength(100, ErrorMessage = "El número máximo de caracteres es de 100.")]
+        public string Name { get; set; }
     }
 }

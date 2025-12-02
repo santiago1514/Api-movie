@@ -1,10 +1,12 @@
 ﻿using Api.Movie.DAL.Models;
 using Api.Movie.DAL.Models.Dtos;
-using Api.Movie.Repository.IRepository;
+using Api.Movie.Services.IServices;
+using Api.Movies.Repository.IRepository;
+using AutoMapper;
 
 namespace Api.Movie.Services
 {
-    public class CategoryService
+    public class CategoryService : ICategoryService
     {
         private readonly ICategoryRepository _categoryRepository;
         private readonly IMapper _mapper;
